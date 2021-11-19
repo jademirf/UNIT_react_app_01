@@ -7,16 +7,16 @@
   color: black;
 }
 
+p{
+  text-align: left;
+  text-indent: 2em;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
+div.taskCard {
   text-align: left;
   box-shadow: 0px 1px 2px black;
   padding: 0.5em 0;
@@ -24,7 +24,7 @@ ul li {
   margin: 1em auto;
   text-indent: 10px 
 }
-li h5 {
+div.taskCard h5 {
   display: inline-block;
   width: 90%;
 }
