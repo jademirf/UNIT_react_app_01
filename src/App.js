@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header'
 import TasksList from './components/TasksList'
+import FooterMenu from './components/FooterMenu'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Header listTitle={'Estudos'} user={user}/>
       <TasksList />
+      <FooterMenu/>
     </div>
   );
 }
