@@ -1,22 +1,12 @@
-import './App.css';
-import Header from './components/Header'
-import TasksList from './components/TasksList'
-import FooterMenu from './components/FooterMenu'
+import React from 'react'
+import Router from './routes'
+
+import './App.css'
 
 function App() {
 
-  const user = {
-    id: 1,
-    name: 'Jademir',
-    lastName: 'Filho'
-  }
-
   return (
-    <div className="App">
-      <Header listTitle={'Estudos'} user={user}/>
-      <TasksList />
-      <FooterMenu/>
-    </div>
+    <Router />
   );
 }
 
