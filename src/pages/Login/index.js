@@ -1,6 +1,7 @@
 import React, { useState} from 'react'
 import { Card, Col, Container, Row, Form } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header'
 
@@ -42,6 +43,7 @@ const Home = () => {
                     Login
                   </Button>
                 </Form>
+                <Link to="/">retornar para a home</Link>
               </Card.Body>
             </Card>
           </Col>
